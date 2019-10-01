@@ -14,8 +14,8 @@ function isCoasting(grade) {
   return grade >=72 && grade<=83;
 }
 
-function isSucceeding() {
-
+function isSucceeding(grade) {
+  return grade >=84 && grade<=92;
 }
 
 function isFailing(x) {
