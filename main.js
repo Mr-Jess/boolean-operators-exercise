@@ -1,33 +1,33 @@
-function moreThan5() {
-
+function moreThan5(name) {
+  return name > 5;
 }
 
-function topScore() {
-  
+function topScore(topNum,num) {
+  return num < topNum;
 }
 
-function isInDanger() {
-
+function isInDanger(grade) {
+  return grade >=60 && grade <=71;
 }
 
-function isCoasting() {
-
+function isCoasting(grade) {
+  return grade >=72 && grade<=83;
 }
 
 function isSucceeding() {
 
 }
 
-function isFailing() {
-
+function isFailing(x) {
+  return (x < 60);
 }
 
-function isAcing() {
-
+function isAcing(x) {
+  return (x > 92);
 }
 
 function isStudent() {
-
+  return student
 }
 
 function isTeacher() {
