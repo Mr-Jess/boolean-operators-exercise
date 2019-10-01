@@ -47,11 +47,11 @@ function notAnElementarySchoolAdministrator(job, grade) {
 }
 
 function isMiddleSchoolTeacher(job, grade) {
-  return job === 'teacher' && grade >=6 && grade<=8
+  return job === 'teacher' && grade >=6 && grade<=8;
 }
 
-function differentPeople() {
-
+function differentPeople(name1, name2) {
+  return name1 !== name2;
 }
 
 module.exports = {
