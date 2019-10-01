@@ -18,36 +18,36 @@ function isSucceeding(grade) {
   return grade >=84 && grade<=92;
 }
 
-function isFailing(x) {
-  return (x < 60);
+function isFailing(grade) {
+  return grade < 60;
 }
 
-function isAcing(x) {
-  return (x > 92);
+function isAcing(grade) {
+  return grade > 92;
 }
 
-function isStudent() {
-  return student
+function isStudent(jesse) {
+  return jesse === 'student';
 }
 
-function isTeacher() {
-
+function isTeacher(colin) {
+  return colin === 'teacher';
 }
 
-function isAdmin() {
-
+function isAdmin(job) {
+  return job === 'admin';
 }
 
-function isElementary() {
-
+function isElementary(grade) {
+  return grade === 'elementary';
 }
 
-function notAnElementarySchoolAdministrator() {
-
+function notAnElementarySchoolAdministrator(job, grade) {
+  return job !== 'elementary' || grade !== 'admin';
 }
 
-function isMiddleSchoolTeacher() {
-
+function isMiddleSchoolTeacher(job, grade) {
+  return job === 'teacher' && grade >=6 && grade<=8
 }
 
 function differentPeople() {
